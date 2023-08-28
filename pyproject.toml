@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "computational-electromagnetics"
+version = "0.1.0"
+description = "A collection of Computational Electromagnetics algorithms."
+authors = ["dasdias <das.dias6@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.11,>3.13"
+seaborn = "^0.12.2" # statistics and visualization tools for better integration with matplotlib
+matplotlib = "^3.7.2" # powerful visualization
+numpy = "^1.25.2" # high performance array processing and parallelization
+scipy = "^1.11.2" # scientific computing
+networkx = "^3.1" # high performance graph library
+gdstk = "^0.9.42"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
