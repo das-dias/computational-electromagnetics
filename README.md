@@ -9,7 +9,6 @@
 
 <h2>Table of Contents</h2>
 <ul>
-	<li><a href="#dir-org">Directory Organization</a></li>
 	<li><a href="#overview">Overview</a></li>
 	<li><a href="#dependencies">Dependencies</a></li>
 	<li><a href="#downloading">Downloading</a></li>
@@ -17,23 +16,6 @@
 	<li><a href="#licensing">Licensing</a></li>
 	<!-- Add more practical classes as needed -->
 </ul>
-
-<h2>Directory Organization</h2>
-
-<p>The repository is organized as follows:</p>
-
-```
-signal-converters-course/
-├── practical_classes/
-│   ├── utils.py #featuring utilities functions imported locally
-│   ├── practical_class_1.ipynb
-│   ├── practical_class_2.ipynb
-│   ├── practical_class_3.ipynb
-│   └── ...
-├── resources/
-├── tests/
-└── README.md
-```
 
 <h2 align="left" id="overview">Overview</h2>
 
@@ -50,6 +32,15 @@ Three aditional support papers will be used to exemplify the usage of modern com
 	<li>The possibility of running computationally-heavy simulations in the cloud using <a href="https://colab.research.google.com/">Google Colab</a>.</li>
 </ul>
 
+Checkout:
+- <a href="Python and Jupyter for UBC Mathematics">Uni. of British Columbia (UBC) : Python and Jupyter for UBC Mathematics</a>
+- <a href="https://docs.scipy.org/doc/scipy/index.html">SciPy</a>
+- <a href="https://numpy.org/">NumPy</a>
+
+- <a href="https://matplotlib.org/">Matplotlib</a>
+
+webpages for more information on how to use Python and Jupyter Notebooks for scientific/mathematical computing and data visualization.
+
 <h2 align="left" id="dependencies">Dependencies</h2>
 
 
@@ -63,9 +54,10 @@ The following open source packages are used in this project:
 * <a href="https://numpy.org/doc/"> NumPy</a> - general-purpose array-processing package
 * <a href="https://scipy.org/">SciPy</a> - fast-fourier-transform (FFT) and other advanced signal-processing algorithms
 * <a href="https://matplotlib.org/stable/index.html"> Matplotlib</a> & <a href="https://seaborn.pydata.org/">Seaborn</a> - data visualization and general plotting
-* <a href="https://heitzmann.github.io/gdstk/">GDSTK</a> - creation, parsing and manipulation of integrated circuit layouts and general conductor surfaces.
-</details>
 
+* <a href="https://shapely.readthedocs.io/en/stable/index.html#">Shapely</a> - Manipulation and analysis of geometric objects in the Cartesian plane.
+
+* <a href="https://pygmsh.readthedocs.io/en/latest/">PyGmsh</a> - Python interface for the Gmsh scripting language, for the creation of 2D and 3D mesh geometries for Finite Element Method (FEM) and other applications.
 
 <h2 align="left" id="downloading">Downloading</h2>
 
