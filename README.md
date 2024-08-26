@@ -39,6 +39,9 @@ Checkout:
 
 - <a href="https://matplotlib.org/">Matplotlib</a>
 
+- <a href=https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html>Python Numerical Methods</a>
+- <a href=https://geometryprocessing.github.io/blackbox-computing-python>Geometry Processing and Visualization in Python</a>
+
 webpages for more information on how to use Python and Jupyter Notebooks for scientific/mathematical computing and data visualization.
 
 <h2 align="left" id="dependencies">Dependencies</h2>
@@ -51,8 +54,8 @@ webpages for more information on how to use Python and Jupyter Notebooks for sci
 The following open source packages are used in this project:
   <br>
 
-* <a href="https://numpy.org/doc/"> NumPy</a> - general-purpose array-processing package
-* <a href="https://scipy.org/">SciPy</a> - fast-fourier-transform (FFT) and other advanced signal-processing algorithms
+* <a href="https://numpy.org/doc/"> NumPy</a> - general-purpose matrix and array-processing package
+* <a href="https://scipy.org/">SciPy</a> - fast-fourier-transform (FFT) and other advanced numerical methods for integration, differentiation, interpolation, optimization, linear algebra, statistics, and more.
 * <a href="https://matplotlib.org/stable/index.html"> Matplotlib</a> & <a href="https://seaborn.pydata.org/">Seaborn</a> - data visualization and general plotting
 
 * <a href="https://shapely.readthedocs.io/en/stable/index.html#">Shapely</a> - Manipulation and analysis of geometric objects in the Cartesian plane.
